@@ -4,13 +4,13 @@ Tweeter is a simple, single-page Twitter clone that uses HTML5, plain ol' CSS, J
 
 ## Final Product
 
-!["Screenshot of Tweeter the Desktop Version"]()
+!["Screenshot of Tweeter the Desktop Version"](https://github.com/telhe1234/tweeter/blob/master/docs/Tweeter-desktop-version.png)
 
-!["Screenshot of Tweeter the Mobile and Tablet Version""]()
+!["Screenshot of Tweeter the Mobile and Tablet Version""](https://github.com/telhe1234/tweeter/blob/master/docs/Tweeter-mobile-tablet-version.png)
 
-!["Screenshot of Tweeter's Tweet Box"]()
+!["Screenshot of Tweeter's Tweet Box"](https://github.com/telhe1234/tweeter/blob/master/docs/tweet-box.png)
 
-!["Screenshot of some Tweeter Sample Tweetes"]()
+!["Screenshot of some Tweeter Sample Tweetes"](https://github.com/telhe1234/tweeter/blob/master/docs/tweets.png)
 
 
 ## Getting Started
@@ -28,8 +28,5 @@ Tweeter is a simple, single-page Twitter clone that uses HTML5, plain ol' CSS, J
 - chance
 - md5
 
-# TinyApp Project
-
-TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).
 
 
