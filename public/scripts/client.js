@@ -14,11 +14,13 @@ const renderTweets = function(tweets) {
     $('#tweets-container').prepend($tweet);
   }
 };
+
 const escape = function (str) {
   let div = document.createElement("div");
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
 };
+
 const createTweetElement = (tweetData) => {
   const $tweet = $(`
     <article class="tweet">
@@ -53,25 +55,21 @@ const createTweetElement = (tweetData) => {
 const loadtweets = () => {
   $.ajax('/tweets', { method: 'GET' })
     .then(function (data) {
-      // console.log('Success: ', data);
-      // console.log(typeof data);
-      // const dataArray = $.parseJSON($(data));
-      // console.log(data);
       renderTweets($(data));
     });
-}
+};
+
 const generateError = (message) => {
   return $("#input-error")
   .html(`<i class='fa fa-warning' style='color:red'></i> ${message} <i class='fa fa-warning' style='color:red'>`)
   .slideDown('fast');
-}
+};
+
 $(() => {
   loadtweets();
-  // renderTweets(data);
   $( "#tweet-form" ).submit(function( event ) {
     event.preventDefault();
     $("#input-error").slideUp('fast');
-    // const $userInput = $("#tweet-text").val();
     if ($("#tweet-text").val().length > 140) {
       return generateError('Too long. Please respect our limit of 40 chars!');
     }
@@ -81,7 +79,6 @@ $(() => {
     const val = $( this ).serialize();
     const url = $(this).attr( "action" );
     $.post(url, val).then(function () {
-      // console.log('success!');
       $("#tweet-text").val('');
       $('.counter').val(140);
       $('.counter').removeClass('over-limit');
