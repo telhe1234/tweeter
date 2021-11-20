@@ -1,0 +1,26 @@
+header.main-header {
+  /* height: 400px; */
+  /* width: inherit; */
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/asfalt-light.png);
+
+}
+
+header.main-header img {
+  /* margin-top: 120px; */
+  height: 180px;
+}
+header.main-header h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+header.main-header h2 span {
+  font-weight: 600;
+}

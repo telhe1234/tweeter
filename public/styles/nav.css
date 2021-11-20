@@ -1,0 +1,33 @@
+nav {
+  height: 120px;
+  /* background-color: #4056A1; */
+  width: 100vw;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  font-family: 'Bungee', cursive;
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+.rightSideItems {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5em;
+  font-size: 20px;
+}
+.rightSideText {
+  margin-bottom: 3px;
+}
+.doubleDownArrow {
+  display: flex;
+  justify-content: center;
+  color: red;
+
+}

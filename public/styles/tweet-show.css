@@ -1,0 +1,64 @@
+ section#tweets-container article.tweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #545149;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+section#tweets-container article.tweet:hover {
+  box-shadow: 7px 5px #c0c6d8;
+}
+article.tweet header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+article.tweet header .user-logo-and-name {
+  display: flex;
+  align-items: center;
+
+}
+article.tweet header .handle {
+ color: #c0c6d8;
+}
+article.tweet header img {
+  height: 35px;
+  margin-right: 10px;
+}
+article.tweet .tweet-show-text {
+  font-weight: 400;
+  margin: 18px;
+}
+article.tweet footer hr {
+  border-top: 3px solid #545149;
+}
+article.tweet footer .time-and-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+article.tweet footer .time-and-icons span {
+  font-size: small;
+  font-weight: 400;
+}
+article.tweet footer .time-and-icons .icons {
+  font-size:small;
+  color: #4056A1;
+}
+i.fa-solid.fa-retweet {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+i.fa-solid.fa-retweet:hover, i.fa-solid.fa-heart:hover, i.fa-solid.fa-flag:hover  {
+  color: gold;
+}
